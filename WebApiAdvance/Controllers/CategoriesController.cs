@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -14,26 +15,54 @@ namespace WebApiAdvance.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ApiDbContext _context;
+        IMapper _mapper;
 
-        public CategoriesController(ApiDbContext context)
+        public CategoriesController(ApiDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
 
         //1) Read All
-      
+
         [HttpGet]
 
-        public async Task<IActionResult> GetAllCategories()
+        //public async Task<IActionResult> GetAllCategories()
+        //{
+        //    var result = await _context.Categories.ToListAsync();
+        //    return StatusCode((int)HttpStatusCode.OK, result);
+        //}
+
+
+        public async Task<ActionResult> GetAllCategories()
         {
-            var result = await _context.Categories.ToListAsync();
-            return StatusCode((int)HttpStatusCode.OK, result);
+            var categories = await _context.Categories.AsNoTracking().ToListAsync();
+
+            return Ok(_mapper.Map<List<GetCategoryDTO>>(categories));
         }
 
+
+
+        [HttpGet]
+
+        public async Task<ActionResult<List<GetCategoryDTO>>> GetNameCategory()
+        {
+            var result = await _context.Categories.Select(c => new GetCategoryDTO
+            {
+                Name = c.Name,
+            }).ToListAsync();
+
+            return StatusCode((int)HttpStatusCode.OK, result);
+
+        }
+
+
+
+
         //2) Read id
-       
-        
+
+
         [HttpGet]
 
         public async Task<IActionResult> GetCategoryId(Guid id)
@@ -48,19 +77,28 @@ namespace WebApiAdvance.Controllers
         }
 
 
-        //3) Create
-      
+
         
+
+        
+
+
+        //3) Create
+
+
         [HttpPost]
 
         public async Task<IActionResult> CreateCategory(CreateCategoryDTO createCategoryDTO)
         {
-            Category category = new Category()
-            {
-                Name = createCategoryDTO.Name,
-                Description = createCategoryDTO.Description,
-                Status = createCategoryDTO.Status,
-            };
+            var category = _mapper.Map<Category>(createCategoryDTO);
+
+            //Category category = new Category()
+            //{
+            //    Name = createCategoryDTO.Name,
+            //    Description = createCategoryDTO.Description,
+            //    Status = createCategoryDTO.Status,
+            //};
+          
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();
             return NoContent();
@@ -97,11 +135,14 @@ namespace WebApiAdvance.Controllers
             if (existsCategory == null)
                 return NotFound();
 
-            existsCategory.Name = updateCategoryDTO.Name == null ? existsCategory.Name : updateCategoryDTO.Name;
-            existsCategory.Description = updateCategoryDTO.Description == null ? existsCategory.Description: updateCategoryDTO.Description ;
-            existsCategory.Status=updateCategoryDTO.Status == null? existsCategory.Status : updateCategoryDTO.Status ;
+            //existsCategory.Name = updateCategoryDTO.Name == null ? existsCategory.Name : updateCategoryDTO.Name;
+            //existsCategory.Description = updateCategoryDTO.Description == null ? existsCategory.Description: updateCategoryDTO.Description ;
+            //existsCategory.Status=updateCategoryDTO.Status == null? existsCategory.Status : updateCategoryDTO.Status ;
 
-            _context.Update(existsCategory);
+            _mapper.Map(updateCategoryDTO, existsCategory);
+          
+
+            
             await _context.SaveChangesAsync();
             return NoContent();
 

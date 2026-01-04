@@ -12,8 +12,8 @@ using WebApiAdvance.DAL.EFcore;
 namespace WebApiAdvance.DAL.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20251220161812_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251225124504_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -103,6 +103,62 @@ namespace WebApiAdvance.DAL.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("WebApiAdvance.Entities.Order", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18.2)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("WebApiAdvance.Entities.OrderItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<Guid>("OrderId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItems");
+                });
+
             modelBuilder.Entity("WebApiAdvance.Entities.Common.Product", b =>
                 {
                     b.HasOne("WebApiAdvance.Entities.Common.Category", "Category")
@@ -114,9 +170,25 @@ namespace WebApiAdvance.DAL.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("WebApiAdvance.Entities.OrderItem", b =>
+                {
+                    b.HasOne("WebApiAdvance.Entities.Order", "Order")
+                        .WithMany("orderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("WebApiAdvance.Entities.Common.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("WebApiAdvance.Entities.Order", b =>
+                {
+                    b.Navigation("orderItems");
                 });
 #pragma warning restore 612, 618
         }

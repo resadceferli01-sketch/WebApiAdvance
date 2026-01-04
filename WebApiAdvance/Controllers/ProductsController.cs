@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -13,11 +14,15 @@ namespace WebApiAdvance.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly ApiDbContext _context;
+        IMapper _mapper;
 
-        public ProductsController(ApiDbContext context)
+        public ProductsController(ApiDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
+
+
 
         //1)Read All
 
@@ -25,7 +30,7 @@ namespace WebApiAdvance.Controllers
 
         public async Task<IActionResult> GetAllProducts()
         {
-            var result = await _context.Categories.ToListAsync();
+            var result = await _context.Products.ToListAsync();
             return StatusCode((int)HttpStatusCode.OK, result);
         }
 
@@ -51,17 +56,21 @@ namespace WebApiAdvance.Controllers
 
         public async Task<IActionResult>AddProduct(CreateProductDTO createProductDTO)
         {
-            Product product = new Product()
-            {
-                Name = createProductDTO.Name,
-                Description = createProductDTO.Description,
-                Price = createProductDTO.Price,
-                DiscountPrice = createProductDTO.DiscountPrice,
-                Currency = createProductDTO.Currency,
-                status = createProductDTO.status,
-                CategoryId = createProductDTO.CategoryId,
 
-            };
+
+            //Product product = new Product()
+            //{
+            //    Name = createProductDTO.Name,
+            //    Description = createProductDTO.Description,
+            //    Price = createProductDTO.Price,
+            //    DiscountPrice = createProductDTO.DiscountPrice,
+            //    Currency = createProductDTO.Currency,
+            //    status = createProductDTO.status,
+            //    CategoryId = createProductDTO.CategoryId,
+
+            //};
+
+            var product = _mapper.Map<Product>(createProductDTO);
 
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
@@ -95,16 +104,18 @@ namespace WebApiAdvance.Controllers
                 return NotFound();
 
 
-            existsProduct.Name = updateProductDTO.Name;
-            existsProduct.Description = updateProductDTO.Description;
-            existsProduct.Price = updateProductDTO.Price;
-            existsProduct.DiscountPrice = updateProductDTO.DiscountPrice;
-            existsProduct.Currency = updateProductDTO.Currency;
-            existsProduct.status = updateProductDTO.status;
-            existsProduct.CategoryId = updateProductDTO.CategoryId;
+            //existsProduct.Name = updateProductDTO.Name;
+            //existsProduct.Description = updateProductDTO.Description;
+            //existsProduct.Price = updateProductDTO.Price;
+            //existsProduct.DiscountPrice = updateProductDTO.DiscountPrice;
+            //existsProduct.Currency = updateProductDTO.Currency;
+            //existsProduct.status = updateProductDTO.status;
+            //existsProduct.CategoryId = updateProductDTO.CategoryId;
+
+            _mapper.Map(updateProductDTO,existsProduct);
 
 
-            _context.Update(existsProduct);
+            
             await _context.SaveChangesAsync();
             return NoContent();
         }

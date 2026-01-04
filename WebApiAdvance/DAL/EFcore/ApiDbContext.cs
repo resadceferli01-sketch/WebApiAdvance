@@ -1,10 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApiAdvance.Entities.Common;
 using WebApiAdvance.DAL.Configuration;
+using WebApiAdvance.Entities;
+using System.Reflection;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using WebApiAdvance.Entities.Auth;
 
 namespace WebApiAdvance.DAL.EFcore
 {
-    public class ApiDbContext:DbContext
+    public class ApiDbContext : IdentityDbContext<AppUser<Guid>>
 
     {
         public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options) 
@@ -16,10 +20,15 @@ namespace WebApiAdvance.DAL.EFcore
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<Order> Orders {  get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfigurations).Assembly);
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProductConfigurations).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(modelBuilder);
+            
         }
 
     }

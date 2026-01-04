@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "WebApiAdvance.Controllers.Auth.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "WebApiAdvance.Entities.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiAdvance.Controllers.Auth.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "WebApiAdvance.Entities.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiAdvance.Controllers.CategoriesController",
     "Method": "CreateCategory",
     "RelativePath": "api/Categories/CreateCategory",
@@ -56,6 +88,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiAdvance.Controllers.CategoriesController",
+    "Method": "GetNameCategory",
+    "RelativePath": "api/Categories/GetNameCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApiAdvance.Entities.DTOs.CategoryDTOs.GetCategoryDTO, WebApiAdvance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApiAdvance.Controllers.CategoriesController",
