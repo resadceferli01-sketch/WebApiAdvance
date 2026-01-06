@@ -3,60 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\migrations\\20260101191848_aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\migrations\\20260101191848_aspnetusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\migrations\\20251226123147_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\migrations\\20251226123147_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\migrations\\20251225124504_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\migrations\\20251225124504_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\migrations\\apidbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\auth\\tokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\auth\\tokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\profiles\\authprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\profiles\\authprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\repositories\\concrete\\efcore\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\repositories\\concrete\\efcore\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\repositories\\abstract\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\repositories\\abstract\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\auth\\tokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\auth\\tokenoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\entities\\auth\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\entities\\auth\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|c:\\users\\\u0440\u0430\u0441\u0430\u0434\\desktop\\webapiadvance\\webapiadvance\\dal\\migrations\\20251225124504_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B794418A-69E0-B9BB-3F2A-D16866FED7E9}|WebApiAdvance\\WebApiAdvance.csproj|solutionrelative:webapiadvance\\dal\\migrations\\20251225124504_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,145 +82,211 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260101191848_aspnetusers.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\20260101191848_aspnetusers.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Migrations\\20260101191848_aspnetusers.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\20260101191848_aspnetusers.cs",
-              "RelativeToolTip": "WebApiAdvance\\DAL\\Migrations\\20260101191848_aspnetusers.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAgwIIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:19:04.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20251226123147_AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\20251226123147_AppUser.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Migrations\\20251226123147_AppUser.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\20251226123147_AppUser.cs",
-              "RelativeToolTip": "WebApiAdvance\\DAL\\Migrations\\20251226123147_AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:10:37.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokenOption.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
-              "RelativeToolTip": "WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T18:32:11.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiAdvance\\appsettings.json",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\appsettings.json",
-              "RelativeToolTip": "WebApiAdvance\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-30T09:27:48.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T09:10:33.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\AuthProfiles.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Profiles\\AuthProfiles.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\AuthProfiles.cs",
-              "RelativeToolTip": "WebApiAdvance\\Profiles\\AuthProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:14:11.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:10:30.108Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
-              "RelativeToolTip": "WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwHoAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Program.cs",
+              "RelativeToolTip": "WebApiAdvance\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAD8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:01:29.657Z",
+              "WhenOpened": "2026-01-05T18:10:01.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApiDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "RelativeToolTip": "WebApiAdvance\\DAL\\Migrations\\ApiDbContextModelSnapshot.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "CategoryProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\CategoryProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Profiles\\CategoryProfiles.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\CategoryProfiles.cs",
+              "RelativeToolTip": "WebApiAdvance\\Profiles\\CategoryProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T12:37:28.033Z"
+              "WhenOpened": "2026-01-05T17:59:52.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:10:15.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "TokenOption.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\Auth\\TokenOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:06:57.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:02:25.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\ProductProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Profiles\\ProductProfiles.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Profiles\\ProductProfiles.cs",
+              "RelativeToolTip": "WebApiAdvance\\Profiles\\ProductProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:59:30.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:54:45.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\UpdateProductDTO.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\UpdateProductDTO.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:54:23.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\CreateProductDTO.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\CreateProductDTO.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\CreateProductDTO.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\DTOs\\ProductDTOs\\CreateProductDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:54:18.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApiAdvance\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:53:26.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Repositories\\Concrete\\Efcore\\EfCategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Repositories\\Concrete\\Efcore\\EfCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Repositories\\Concrete\\Efcore\\EfCategoryRepository.cs",
+              "RelativeToolTip": "WebApiAdvance\\DAL\\Repositories\\Concrete\\Efcore\\EfCategoryRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:40:12.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Repositories\\Abstract\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Repositories\\Abstract\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Repositories\\Abstract\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebApiAdvance\\DAL\\Repositories\\Abstract\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:32:02.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Product.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:29:48.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Category.cs",
+              "RelativeToolTip": "WebApiAdvance\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T15:29:42.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebApiAdvance\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "WebApiAdvance\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAIwIkAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T12:37:22.873Z"
+              "WhenOpened": "2026-01-05T15:29:16.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\EFcore\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\EFcore\\ApiDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\EFcore\\ApiDbContext.cs",
-              "RelativeToolTip": "WebApiAdvance\\DAL\\EFcore\\ApiDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
+              "RelativeToolTip": "WebApiAdvance\\Controllers\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAASwGwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T11:59:32.692Z"
+              "WhenOpened": "2025-12-29T12:01:29.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Entities\\Auth\\AppUser.cs",
               "RelativeDocumentMoniker": "WebApiAdvance\\Entities\\Auth\\AppUser.cs",
@@ -216,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "20251225124504_init.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\DAL\\Migrations\\20251225124504_init.cs",
               "RelativeDocumentMoniker": "WebApiAdvance\\DAL\\Migrations\\20251225124504_init.cs",
@@ -225,18 +307,6 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAgwBIAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-25T12:45:11.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiAdvance\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0430\u0441\u0430\u0434\\Desktop\\WebApiAdvance\\WebApiAdvance\\Program.cs",
-              "RelativeToolTip": "WebApiAdvance\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T12:43:09.464Z"
             }
           ]
         }

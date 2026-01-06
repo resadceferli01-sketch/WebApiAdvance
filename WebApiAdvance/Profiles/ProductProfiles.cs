@@ -13,6 +13,9 @@ namespace WebApiAdvance.Profiles
 
             CreateMap<UpdateProductDTO, Product>();
             CreateMap<Product, UpdateProductDTO>();
+
+            CreateMap<GetProductDto,  Product>().ReverseMap();
+
         }
     }
 }

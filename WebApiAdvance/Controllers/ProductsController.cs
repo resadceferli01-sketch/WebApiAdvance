@@ -30,7 +30,20 @@ namespace WebApiAdvance.Controllers
 
         public async Task<IActionResult> GetAllProducts()
         {
-            var result = await _context.Products.ToListAsync();
+            var products = await _context.Products.Include(p=>p.Category).Select(p=> new GetProductDto
+            {
+                Name = p.Name,
+                Description = p.Description,
+                Price = p.Price,
+                DiscountPrice = p.DiscountPrice,
+                CategoryName=p.Category.Name,
+                Currency=p.Currency,
+                status=p.status,
+            }).ToListAsync();
+            
+            var result =  _mapper.Map<List<GetProductDto>>(products);
+            
+            
             return StatusCode((int)HttpStatusCode.OK, result);
         }
 

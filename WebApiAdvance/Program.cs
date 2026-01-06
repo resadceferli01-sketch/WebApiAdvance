@@ -8,6 +8,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 using System.Text;
 using WebApiAdvance.DAL.EFcore;
+using WebApiAdvance.DAL.Repositories.Abstract;
+using WebApiAdvance.DAL.Repositories.Concrete.Efcore;
 using WebApiAdvance.Entities.Auth;
 using WebApiAdvance.Entities.DTOs.Auth;
 
@@ -58,6 +60,8 @@ builder.Services.AddAuthentication(opt =>
         ClockSkew = TimeSpan.Zero
     };
 });
+
+builder.Services.AddScoped<ICategoryRepository, EfCategoryRepository>();
 
 var app = builder.Build();
 

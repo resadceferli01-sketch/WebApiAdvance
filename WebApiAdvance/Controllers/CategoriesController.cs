@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 using WebApiAdvance.DAL.EFcore;
+using WebApiAdvance.DAL.Repositories.Abstract;
 using WebApiAdvance.Entities.Common;
 using WebApiAdvance.Entities.DTOs.CategoryDTOs;
 
@@ -14,13 +15,13 @@ namespace WebApiAdvance.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ApiDbContext _context;
         IMapper _mapper;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoriesController(ApiDbContext context, IMapper mapper)
+        public CategoriesController(IMapper mapper, ICategoryRepository categoryRepository)
         {
-            _context = context;
             _mapper = mapper;
+            _categoryRepository = categoryRepository;
         }
 
 
@@ -35,27 +36,15 @@ namespace WebApiAdvance.Controllers
         //}
 
 
-        public async Task<ActionResult> GetAllCategories()
+        public async Task<ActionResult<List<GetCategoryDTO>>> GetAllCategories(int page,int size)
         {
-            var categories = await _context.Categories.AsNoTracking().ToListAsync();
+            var categories = await _categoryRepository.GetAllPaginatedAsync(page,size, null);
 
-            return Ok(_mapper.Map<List<GetCategoryDTO>>(categories));
+            var result = _mapper.Map<List<GetCategoryDTO>>(categories);
+
+            return StatusCode((int) HttpStatusCode.OK,result);
         }
 
-
-
-        [HttpGet]
-
-        public async Task<ActionResult<List<GetCategoryDTO>>> GetNameCategory()
-        {
-            var result = await _context.Categories.Select(c => new GetCategoryDTO
-            {
-                Name = c.Name,
-            }).ToListAsync();
-
-            return StatusCode((int)HttpStatusCode.OK, result);
-
-        }
 
 
 
@@ -65,22 +54,23 @@ namespace WebApiAdvance.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> GetCategoryId(Guid id)
+        public async Task<ActionResult<GetCategoryDTO>> GetCategoryId(Guid id)
         {
-            {
-                var existsCategory = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
-                if (existsCategory == null)
-                    return NotFound();
-
-                return StatusCode((int)HttpStatusCode.Found, existsCategory);
-            }
+            
+                var existsCategory = await _categoryRepository.Get (c => c.Id == id);
+                if (existsCategory != null)
+                {
+                    return Ok(_mapper.Map<GetCategoryDTO>(existsCategory));
+                }
+                return BadRequest(new
+                {
+                    status = HttpStatusCode.BadRequest,
+                    message = "Category tapilmadi"
+                });
+            
         }
 
-
-
-        
-
-        
+       
 
 
         //3) Create
@@ -92,15 +82,10 @@ namespace WebApiAdvance.Controllers
         {
             var category = _mapper.Map<Category>(createCategoryDTO);
 
-            //Category category = new Category()
-            //{
-            //    Name = createCategoryDTO.Name,
-            //    Description = createCategoryDTO.Description,
-            //    Status = createCategoryDTO.Status,
-            //};
+            
           
-            await _context.Categories.AddAsync(category);
-            await _context.SaveChangesAsync();
+            await _categoryRepository.AddCategoryAsync(category);
+           await _categoryRepository.SaveAsync() ;
             return NoContent();
 
         }
@@ -113,12 +98,13 @@ namespace WebApiAdvance.Controllers
 
         public async Task<IActionResult> DeleteCategory(Guid id)
         {
-            var existsCategory = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
-            if (existsCategory == null)
+            var category = await _categoryRepository.Get(c => c.Id == id);
+            if (category == null)
+            {
                 return NotFound();
-
-            _context.Categories.Remove(existsCategory);
-            await _context.SaveChangesAsync();
+            }
+            _categoryRepository.DeleteCategory(category.Id);
+           await _categoryRepository.SaveAsync();
             return NoContent();
 
 
@@ -131,21 +117,25 @@ namespace WebApiAdvance.Controllers
 
         public async Task<IActionResult>UpdateCategory(Guid id ,UpdateCategoryDTO updateCategoryDTO)
         {
-            var existsCategory = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
-            if (existsCategory == null)
-                return NotFound();
+            var category = await _categoryRepository.Get (x => x.Id == id);
+            if (category ! == null)
+            {
+                category.Name= updateCategoryDTO.Name == null ? category.Name : updateCategoryDTO.Name;
+                category.Description = updateCategoryDTO.Description == null ? category.Description : updateCategoryDTO.Description;
+                category.Status= updateCategoryDTO.Status == null ? category.Status : updateCategoryDTO.Status;
 
-            //existsCategory.Name = updateCategoryDTO.Name == null ? existsCategory.Name : updateCategoryDTO.Name;
-            //existsCategory.Description = updateCategoryDTO.Description == null ? existsCategory.Description: updateCategoryDTO.Description ;
-            //existsCategory.Status=updateCategoryDTO.Status == null? existsCategory.Status : updateCategoryDTO.Status ;
+               await _categoryRepository.SaveAsync();
+                return Ok();
 
-            _mapper.Map(updateCategoryDTO, existsCategory);
-          
+            }
+                return BadRequest(new
+                {
+                    status=HttpStatusCode.BadRequest,
+                    message ="category tapilmadi"
+                });
 
-            
-            await _context.SaveChangesAsync();
-            return NoContent();
 
+           
 
         }
 

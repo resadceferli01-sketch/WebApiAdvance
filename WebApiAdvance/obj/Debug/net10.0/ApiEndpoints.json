@@ -70,8 +70,29 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebApiAdvance.Entities.DTOs.CategoryDTOs.GetCategoryDTO, WebApiAdvance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApiAdvance.Controllers.CategoriesController",
@@ -87,19 +108,9 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApiAdvance.Controllers.CategoriesController",
-    "Method": "GetNameCategory",
-    "RelativePath": "api/Categories/GetNameCategory",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[WebApiAdvance.Entities.DTOs.CategoryDTOs.GetCategoryDTO, WebApiAdvance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "WebApiAdvance.Entities.DTOs.CategoryDTOs.GetCategoryDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
