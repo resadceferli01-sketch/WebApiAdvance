@@ -84,7 +84,7 @@ namespace WebApiAdvance.Controllers
 
             
           
-            await _categoryRepository.AddCategoryAsync(category);
+            await _categoryRepository.AddAsync(category);
            await _categoryRepository.SaveAsync() ;
             return NoContent();
 
@@ -103,7 +103,7 @@ namespace WebApiAdvance.Controllers
             {
                 return NotFound();
             }
-            _categoryRepository.DeleteCategory(category.Id);
+            _categoryRepository.Delete(category.Id);
            await _categoryRepository.SaveAsync();
             return NoContent();
 
